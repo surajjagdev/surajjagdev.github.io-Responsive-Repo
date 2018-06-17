@@ -1,0 +1,147 @@
+/*Styling_*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/*Background image*/
+.background {
+  background-image: url("../images/qbkls.png");
+}
+/*Navigation bar, choosing its background color, text-color, padding, font-size, its position, etc.*/
+.nav {
+  background-color: #ffffff;
+  color: black;
+  padding: 25px 0 25px 0;
+  list-style: none;
+  text-align: right;
+  font-size: 12px;
+  left: 10px;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #cccccc;
+}
+/*navigation link into unordered list, making list horizontal, without underlining, padding and alignment*/
+.nav > ul > li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 25px 0 30px 0;
+  margin-right: 10px;
+}
+/*Navigation bar hovering, when you click on another link*/
+.nav > ul > li > a:hover {
+  color: red;
+}
+/*Name aligning to left, font-sizing, background color, making it bold, etc.*/
+.name {
+  float: left;
+  font-size: 25px;
+  background-color: #4aaaa5;
+  color: white;
+  margin-left: 182.5px;
+  font-weight: bold;
+}
+/*header1 in main container, making a underline, color, bold, etc.*/
+#mainscreen > h1 {
+  border-bottom: 2px solid gray;
+  margin-bottom: 0;
+  color: #4aaaa5;
+  font-size: 25px;
+  font-weight: bold;
+}
+/*container p1's color and padding*/
+#mainscreen > p1 {
+  padding-top: 10px;
+  color: gray;
+}
+/*Container itself, margin(didnt work), font-family, font-sizing, back-ground color, width specified, and auto-ing to center it and padding*/
+#mainscreen {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: #ffffff;
+  width: 960px;
+  padding: 20px;
+  margin: auto;
+  border: 1px solid #dddddd;
+  min-height: 100%;
+}
+/*picture on index.html, height, float and aligned*/
+.wrap {
+  height: 150px;
+  float: left;
+  margin-right: 10px;
+}
+/*footer id, spanning width of screen, background-color, aligned text, positioned absolute (works, but wont always, bc its not a responsive choice using absolute)*/
+#footer {
+  width: 100%;
+  background-color: #666666;
+  height: 30px;
+  text-align: center;
+  padding: 0;
+  left: 0;
+  position: fixed;
+  bottom: 0;
+  border-top: 5px solid #4aaaa5;
+  color: rgb(212, 204, 204);
+}
+/*button, color, background-color and some padding*/
+#button {
+  color: white;
+  background-color: #4aaaa5;
+  padding: 10px;
+}
+/*input boxes and message box on contact.html; width spans full mainscreen container, padding spaces out so box doesnt flow out of container, a border, margin-top to make some space, didnt need margin-bottom bc of <br> in the html files, re-sizing none, etc.*/
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  border-radius: 4px;
+  resize: none;
+  box-sizing: border-box;
+}
+/*portfolio pictures on portfolio.html*/
+#pic1 {
+  height: 150px;
+  width: 300px;
+  float: left;
+  margin-left: 1px;
+  margin-top: 25px;
+}
+#pic2 {
+  height: 150px;
+  width: 300px;
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+#pic3 {
+  height: 150px;
+  width: 300px;
+  margin-top: 25px;
+  margin-left: 25px;
+  float: left;
+}
+#pic4 {
+  height: 150px;
+  width: 300px;
+  float: left;
+  margin-left: 1px;
+  margin-top: 25px;
+}
+#pic5 {
+  height: 150px;
+  width: 300px;
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+#pic6 {
+  height: 150px;
+  width: 300px;
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
+}
