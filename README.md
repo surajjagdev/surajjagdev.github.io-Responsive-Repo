@@ -1,8 +1,8 @@
 # Basic-Portfolio
 
-ProjectTitle: Basic-Portfolio
+ProjectTitle: Responsive-Repo
 
-Description: A short professional portfolio using HTML and styled using CSS. This portfolio is a chance to show some basic front-end skills advocating myself as a client.
+Description: Using Basic portfolio repo as the template, a few HTML elements were added in and styled with CSS. Also, 3 break points were created using media queries at 640px, 768px and 980px, to make the static web pages more responsive.  
 
 TableofContents: Assets-->style.css, images
 index.html
