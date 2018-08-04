@@ -1,5 +1,13 @@
-.navbar > ul {
+.navbar {
   width: 100%;
   height: 40px;
   display: inline-block;
+  background-color: teal;
+}
+.navbar > ul > li {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  border-right: solid 1px white;
+  margin-left: 40%;
 }
