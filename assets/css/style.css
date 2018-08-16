@@ -1,3 +1,6 @@
+.slides-navigation {
+  z-index: 5;
+}
 .slides-navigation .prev,
 .slides-navigation .next {
   width: 30px;
@@ -25,8 +28,20 @@
 .title-messages {
   position: absolute;
   width: 100%;
-  top: 45%;
-  z-index: 5;
+  top: 35%;
+  z-index: 4;
   text-align: center;
-  height: 250px;
+  height: 100px;
+}
+.title-heading > p {
+  color: rgb(235, 221, 221);
+  letter-spacing: 7px;
+  font-weight: 100;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+.name {
+  font-size: 45px;
+}
+.title-heading > .job-title {
+  font-size: 25px;
 }
