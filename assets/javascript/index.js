@@ -1,6 +1,7 @@
 /*! Superslides - v0.6.3-wip - 2013-12-17
 * https://github.com/nicinabox/superslides
 * Copyright (c) 2013 Nic Aitch; Licensed MIT */
+
 (function(window, $) {
   var Superslides,
     plugin = "superslides";
@@ -679,3 +680,4 @@
 
   $.fn[plugin].fx = {};
 })(this, jQuery);
+$("#slides").superslides();
