@@ -680,4 +680,3 @@
 
   $.fn[plugin].fx = {};
 })(this, jQuery);
-$("#slides").superslides();
