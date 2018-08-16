@@ -45,3 +45,9 @@
 .title-heading > .job-title {
   font-size: 25px;
 }
+.section {
+  padding: 100px 0;
+}
+.PortfolioPic {
+  max-width: 100%;
+}
