@@ -1,3 +1,8 @@
+body {
+  font-size: 15px;
+  color: #333;
+  letter-spacing: 1px;
+}
 .slides-navigation {
   z-index: 5;
 }
@@ -45,9 +50,95 @@
 .title-heading > .job-title {
   font-size: 25px;
 }
-.section {
+.about-section {
   padding: 100px 0;
 }
 .PortfolioPic {
   max-width: 100%;
+  height: 522.5px;
+}
+.about-me-paragraph {
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+.push-down {
+  padding: 200px 0;
+}
+
+.skills,
+.contact {
+  background-color: rgb(4, 189, 127);
+}
+
+.what-I-know {
+  font-weight: 1000;
+  font-size: 16px;
+  color: rgb(235, 221, 221);
+}
+.what-I-know > .list-one,
+.what-I-know > .list-two,
+.what-I-know > .list-three {
+  float: left;
+  margin-top: 40px;
+}
+.what-I-know > .list-two,
+.what-I-know > .list-three {
+  margin-left: 33%;
+  margin-top: 40px;
+}
+.squareItem {
+  margin-top: 60px;
+  position: relative;
+}
+.squareInnerContainer {
+  position: relative;
+  padding: 15px 15px 35px;
+  border: 2px solid #333;
+  border-top: none;
+}
+.squareInnerContainer {
+  content: "";
+  position: absolute;
+  top: 0px;
+  width: 90;
+  border-bottom: 2px solid #333;
+  border-top: 2px solid #333;
+}
+
+.squareContent > h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  margin-left: 10px;
+  color: rgb(4, 189, 127);
+}
+.squareContent > h3 {
+  font-size: 10px;
+  font-weight: 600px;
+  margin: 0px;
+  margin-left: 15px;
+}
+.squareIcon {
+  position: absolute;
+  left: 45%;
+  top: 0px;
+  width: 40px;
+  color: #333;
+}
+.squareContent > h4 {
+  margin-left: 20px;
+}
+.just-pad-it {
+  padding-bottom: 50px;
+  padding-top: 55px;
+}
+.just-pad-it-2 {
+  padding-bottom: 49px;
+  padding-top: 45px;
+}
+.squareInnerContainer:hover,
+.list-one:hover,
+.list-two:hover,
+.list-three:hover {
+  transform: scale(1.25);
 }
