@@ -209,7 +209,28 @@ body {
   top: 45%;
   left: 35%;
   margin-left: -25px;
+  z-index: 3;
+  font-size: 18px;
 }
 .item {
   padding: 10px;
+}
+.imageOverLay {
+  height: 150px;
+  width: 150px;
+  left: 25px;
+  position: absolute;
+  top: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  z-index: 2;
+
+  -webkit-transition: all 0.2s linear, 1s;
+  -moz-transition: all 0.2s linear, 1s;
+  -o-transition: all 0.2s linear, 1s;
+  -ms-transition: all 0.2s linear, 1s;
+  -transition: all 0.2s linear, 1s;
+}
+.item:hover > .imageOverLay {
+  opacity: 4;
 }
