@@ -142,3 +142,28 @@ body {
 .list-three:hover {
   transform: scale(1.25);
 }
+.linkedin-icon,
+.github-icon {
+  height: 25px;
+  transform: scale(1.5);
+}
+.linkedin-icon:hover,
+.github-icon:hover {
+  transform: scale(2.25);
+}
+.subheading {
+  padding: 5px 10px;
+  font-size: 35px;
+}
+.getting-in-touch {
+  padding: 15px 20px;
+  display: inline-block;
+  font-weight: 600;
+  margin-top: 10px;
+  border: 1px solid #333;
+  border-radius: 2px;
+}
+.getting-in-touch:hover {
+  color: rgb(4, 189, 127);
+  background-color: #333;
+}
