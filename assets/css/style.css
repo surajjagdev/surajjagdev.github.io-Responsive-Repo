@@ -167,26 +167,38 @@ body {
   color: rgb(4, 189, 127);
   background-color: #333;
 }
-.filters {
-  padding: 10px 19px;
-}
+
 .heading {
   text-align: center;
-  float: left;
 }
-.filters {
-  text-align: center;
-  width: 100%;
-}
-#filter > li {
-  display: inline-block;
-  border: 1px solid rgb(4, 189, 127);
+
+.filter > ul {
+  display: block;
   padding: 10px 19px;
   margin-left: 40px;
   margin-top: 20px;
 }
-.filter > .current {
-  background-color: #333;
-  border-color: #333;
-  color: rgb(4, 189, 127);
+#filters > li {
+  display: inline-block;
+  padding: 5px;
+  margin-left: 55px;
+}
+#filters > li > a {
+  border: 1px solid rgb(4, 189, 127);
+  padding: 5px;
+}
+.current {
+  background-color: #666;
+  color: #333;
+  background-color: green;
+}
+
+.active {
+  background-color: #666;
+  color: #333;
+  background-color: green;
+}
+.PortfolioItems {
+  height: 150px;
+  width: 150px;
 }

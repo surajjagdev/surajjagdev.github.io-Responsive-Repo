@@ -19,4 +19,18 @@ $(document).ready(function() {
     startDelay: 1000,
     showCursor: false
   });
+  $(".grid").isotope({
+    // options...
+    itemSelector: ".grid-item",
+    masonry: {
+      columnWidth: 200
+    }
+  });
+  /*var buttons = $("#filters");
+  for (var j = 0; j < buttons.length; j++) {
+    buttons[j].click(function() {
+      this.addClass("active");
+    });
+  }*/
+  $("[data-fancybox]").fancybox();
 });

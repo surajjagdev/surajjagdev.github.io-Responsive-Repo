@@ -12,10 +12,12 @@
   <link rel="stylesheet" type="text/css" href="assets/css/superslides.css">
   <!--bootstrap cdn-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!--cdn css to font awesome for icons-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
     crossorigin="anonymous">
+  <!--fanxy box cdn to css for opening image in browser-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
   <!--personal css-->
-
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
@@ -176,16 +178,36 @@
   <div id="portfolio" class="about-section">
     <div class="container">
       <div class="row">
+        <div class="heading">
+          <h2>Portfolio</h2>
+          <h5>My awesome work</h5>
+        </div>
+        <div class="filter">
 
-        <div class="filters">
-          <div class="heading">
-            <h2>Portfolio</h2>
-          </div>
-          <ul id="filter">
+          <ul id="filters">
             <li><a href="#" data-filter="*" class="current">ALL</a></li>
             <li><a href="#" data-filter=".apps">Apps</a></li>
             <li><a href="#" data-filter="personal">Personal</a></li>
             <li><a href="#" data-filter="*">Websites</a></li>
+
+          </ul>
+        </div>
+        <div class="itemsContainer">
+          <ul class="items">
+            <!--xs for phones, can take multiple classes-->
+            <li class="apps col-xs-6 col-sm-4 col-md-3 col-md-3">
+              <div class="item">
+                <img class="PortfolioItems" src="assets/images/hangman.PNG">
+                <div class="icons">
+                  <a href="assets/images/hangman.PNG" title="View Image" class="openImage" data-fancybox data-caption="Hangman">
+                    <i class="fa fa-search"></i>
+                  </a>
+                  <a href="#" target="_blank" title="Go to Link" class="linkWebsite">
+                    <i class="fa fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </li>
 
           </ul>
         </div>
@@ -210,10 +232,15 @@
   <!--bootstrap js cdn-->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
     crossorigin="anonymous "></script>
-  <!--personal javascript js file-->
+  <!--superslider top js file-->
   <script src="assets/javascript/superslides.js "></script>
+  <!--typed js file-->
   <script src="assets/javascript/typed.js"></script>
-  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+  <!--filter js cdn-->
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <!--fancy box opening images in browser cdn js-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+  <!--personal javascript js file-->
   <script src="assets/javascript/index.js "></script>
 </body>
 
