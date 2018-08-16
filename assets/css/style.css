@@ -175,8 +175,8 @@ body {
 .filter > ul {
   display: block;
   padding: 10px 19px;
-  margin-left: 40px;
   margin-top: 20px;
+  text-align: center;
 }
 #filters > li {
   display: inline-block;
@@ -201,4 +201,15 @@ body {
 .PortfolioItems {
   height: 150px;
   width: 150px;
+}
+.icons {
+  position: absolute;
+  width: 90px;
+  height: 50px;
+  top: 45%;
+  left: 35%;
+  margin-left: -25px;
+}
+.item {
+  padding: 10px;
 }
