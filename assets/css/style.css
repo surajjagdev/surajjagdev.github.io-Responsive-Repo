@@ -98,7 +98,7 @@ body {
   border-top: none;
 }
 .squareInnerContainer {
-  content: '';
+  content: "";
   position: absolute;
   top: 0px;
   width: 90;
@@ -234,4 +234,28 @@ body {
 }
 .item:hover > .imageOverLay {
   opacity: 4;
+}
+.nav-bar-container {
+  width: 100%;
+}
+#sticky-nav-bar {
+  background-color: rgb(4, 189, 127);
+  padding: 20px 10px;
+  z-index: 20;
+  width: inherit;
+}
+
+.nav-list {
+  padding: 0px 25px 0px 25px;
+}
+.nav-list > a,
+.nav-list > a:hover {
+  color: black;
+}
+.navbar-toggler-icon {
+  background: url(../images/icons8-menu-64.png);
+}
+.fixedNav #sticky-nav-bar {
+  position: fixed;
+  top: 0;
 }
