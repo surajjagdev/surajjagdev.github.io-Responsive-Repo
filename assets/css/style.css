@@ -1,278 +1,261 @@
-/*Styling_*/
-html,
 body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
+  font-size: 15px;
+  color: #333;
+  letter-spacing: 1px;
+}
+.slides-navigation {
+  z-index: 5;
+}
+.slides-navigation .prev,
+.slides-navigation .next {
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-/*Background image*/
-.background {
-  background-image: url("../images/qbkls.png");
+.slides-navigation > a.prev {
+  left: 3px;
+  background-image: url(../images/icons8-chevron-left-32.png);
 }
-/*hidden name until 640px*/
-.hiddenname{
-  display:none;
-  font-size: 25px;
-  background-color: #4aaaa5;
-  color: white;
-  font-weight: bold;
-  height:30px;
+
+.slides-navigation > a.next {
+  right: 3px;
+  background-image: url(../images/icons8-chevron-right-32.png);
 }
-/*Navigation bar, choosing its background color, text-color, padding, font-size, its position, etc.*/
-.nav {
-  background-color: #ffffff;
-  color: black;
-  padding: 25px 0 25px 0;
-  list-style: none;
-  text-align: right;
-  font-size: 12px;
-  left: 10px;
-  font-family: "Poppins", sans-serif;
-  border: 1px solid #cccccc;
-}
-/*navigation link into unordered list, making list horizontal, without underlining, padding and alignment*/
-.nav > ul > li {
-  display: inline-block;
-  text-decoration: none;
-  padding: 0 25px 0 30px 0;
-  margin-right: 10px;
-}
-/*Navigation bar hovering, when you click on another link*/
-.nav > ul > li > a:hover {
-  color: red;
-}
-/*Name aligning to left, font-sizing, background color, making it bold, etc.*/
-.name {
-  float: left;
-  font-size: 25px;
-  background-color: #4aaaa5;
-  color: white;
-  margin-left: 182.5px;
-  font-weight: bold;
-}
-/*header1 in main container, making a underline, color, bold, etc.*/
-#mainscreen > h1 {
-  border-bottom: 2px solid gray;
-  margin-bottom: 0;
-  color: #4aaaa5;
-  font-size: 25px;
-  font-weight: bold;
-}
-/*container p1's color and padding*/
-#mainscreen > p1 {
-  padding-top: 10px;
-  color: gray;
-}
-/*Container itself, margin(didnt work), font-family, font-sizing, back-ground color, width specified, and auto-ing to center it and padding*/
-#mainscreen {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  background-color: #ffffff;
-  width: 960px;
-  padding: 20px;
-  margin: auto;
-  border: 1px solid #dddddd;
-  min-height: 100%;
-}
-/*picture on index.html, height, float and aligned*/
-.wrap {
-  height: 150px;
-  float: left;
-  margin-right: 10px;
-}
-/*footer id, spanning width of screen, background-color, aligned text, positioned absolute (works, but wont always, bc its not a responsive choice using absolute)*/
-#footer {
+.over-lay {
   width: 100%;
-  background-color: #666666;
-  height: 30px;
-  text-align: center;
-  padding: 0;
-  left: 0;
-  position: fixed;
-  bottom: 0;
-  border-top: 5px solid #4aaaa5;
-  color: rgb(212, 204, 204);
+  height: 100%;
+  position: absolute;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.4);
 }
-/*button, color, background-color and some padding*/
-#button {
-  color: white;
-  background-color: #4aaaa5;
+.title-messages {
+  position: absolute;
+  width: 100%;
+  top: 35%;
+  z-index: 4;
+  text-align: center;
+  height: 100px;
+}
+.title-heading > p {
+  color: rgb(235, 221, 221);
+  letter-spacing: 7px;
+  font-weight: 100;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+.name {
+  font-size: 45px;
+}
+.title-heading > .job-title {
+  font-size: 25px;
+}
+.about-section {
+  padding: 100px 0;
+}
+.PortfolioPic {
+  max-width: 100%;
+  height: 522.5px;
+}
+.about-me-paragraph {
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+.push-down {
+  padding: 200px 0;
+}
+
+.skills,
+.contact,
+.footer {
+  background-color: rgb(4, 189, 127);
+}
+
+.what-I-know {
+  font-weight: 1000;
+  font-size: 16px;
+  color: rgb(235, 221, 221);
+}
+.what-I-know > .list-one,
+.what-I-know > .list-two,
+.what-I-know > .list-three {
+  float: left;
+  margin-top: 40px;
+}
+.what-I-know > .list-two,
+.what-I-know > .list-three {
+  margin-left: 33%;
+  margin-top: 40px;
+}
+.squareItem {
+  margin-top: 60px;
+  position: relative;
+}
+.squareInnerContainer {
+  position: relative;
+  padding: 15px 15px 35px;
+  border: 2px solid #333;
+  border-top: none;
+}
+.squareInnerContainer {
+  content: "";
+  position: absolute;
+  top: 0px;
+  width: 90;
+  border-bottom: 2px solid #333;
+  border-top: 2px solid #333;
+}
+
+.squareContent > h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  margin-left: 10px;
+  color: rgb(4, 189, 127);
+}
+.squareContent > h3 {
+  font-size: 10px;
+  font-weight: 600px;
+  margin: 0px;
+  margin-left: 15px;
+}
+.squareIcon {
+  position: absolute;
+  left: 45%;
+  top: 0px;
+  width: 40px;
+  color: #333;
+}
+.squareContent > h4 {
+  margin-left: 20px;
+}
+.just-pad-it {
+  padding-bottom: 50px;
+  padding-top: 55px;
+}
+.just-pad-it-2 {
+  padding-bottom: 49px;
+  padding-top: 45px;
+}
+.squareInnerContainer:hover,
+.list-one:hover,
+.list-two:hover,
+.list-three:hover {
+  transform: scale(1.25);
+}
+.linkedin-icon,
+.github-icon {
+  height: 25px;
+  transform: scale(1.5);
+}
+.linkedin-icon:hover,
+.github-icon:hover {
+  transform: scale(2.25);
+}
+.subheading {
+  padding: 5px 10px;
+  font-size: 35px;
+}
+.getting-in-touch {
+  padding: 15px 20px;
+  display: inline-block;
+  font-weight: 600;
+  margin-top: 10px;
+  border: 1px solid #333;
+  border-radius: 2px;
+}
+.getting-in-touch:hover {
+  color: rgb(4, 189, 127);
+  background-color: #333;
+}
+
+.heading {
+  text-align: center;
+}
+
+.filter > ul {
+  display: block;
+  padding: 10px 19px;
+  margin-top: 20px;
+  text-align: center;
+}
+#filters > li {
+  display: inline-block;
+  padding: 5px;
+  margin-left: 55px;
+}
+#filters > li > a {
+  border: 1px solid rgb(4, 189, 127);
+  padding: 5px;
+}
+.current {
+  background-color: #666;
+  color: #333;
+  background-color: green;
+}
+
+.active {
+  background-color: #666;
+  color: #333;
+  background-color: green;
+}
+.PortfolioItems {
+  height: 150px;
+  width: 150px;
+}
+.icons {
+  position: absolute;
+  width: 90px;
+  height: 50px;
+  top: 45%;
+  left: 35%;
+  margin-left: -25px;
+  z-index: 3;
+  font-size: 18px;
+}
+.item {
   padding: 10px;
 }
-/*input boxes and message box on contact.html; width spans full mainscreen container, padding spaces out so box doesnt flow out of container, a border, margin-top to make some space, didnt need margin-bottom bc of <br> in the html files, re-sizing none, etc.*/
-input[type="text"],
-textarea {
+.imageOverLay {
+  height: 150px;
+  width: 150px;
+  left: 25px;
+  position: absolute;
+  top: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  z-index: 2;
+
+  -webkit-transition: all 0.2s linear, 1s;
+  -moz-transition: all 0.2s linear, 1s;
+  -o-transition: all 0.2s linear, 1s;
+  -ms-transition: all 0.2s linear, 1s;
+  -transition: all 0.2s linear, 1s;
+}
+.item:hover > .imageOverLay {
+  opacity: 4;
+}
+.nav-bar-container {
   width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  border-radius: 4px;
-  resize: none;
-  box-sizing: border-box;
 }
-/*portfolio pictures on portfolio.html*/
-#pic1 {
-  height: 150px;
-  width: 300px;
-  float: left;
-  margin-left: 1px;
-  margin-top: 25px;
-}
-#pic2 {
-  height: 150px;
-  width: 300px;
-  float: left;
-  margin-left: 25px;
-  margin-top: 25px;
-}
-#pic3 {
-  height: 150px;
-  width: 300px;
-  margin-top: 25px;
-  margin-left: 25px;
-  float: left;
-}
-#pic4 {
-  height: 150px;
-  width: 300px;
-  float: left;
-  margin-left: 1px;
-  margin-top: 25px;
-}
-#pic5 {
-  height: 150px;
-  width: 300px;
-  float: left;
-  margin-left: 25px;
-  margin-top: 25px;
-}
-#pic6 {
-  height: 150px;
-  width: 300px;
-  float: left;
-  margin-left: 25px;
-  margin-top: 25px;
+#sticky-nav-bar {
+  background-color: rgb(4, 189, 127);
+  padding: 20px 10px;
+  z-index: 20;
+  width: inherit;
 }
 
-/*media screens*/
-@media screen and (max-width:640px){
-  .name{display:none;
-  }
+.nav-list {
+  padding: 0px 25px 0px 25px;
 }
-@media screen and (max-width:640px){
-  .hiddenname{
-    display:inherit !important;
-    width:100%;
-    height:30px;
-    position:absolute;
-    top:0;
-    margin-bottom:30px;
-    text-align:center;
-    height:45px;
-    font-size:30px;
+.nav-list > a,
+.nav-list > a:hover {
+  color: black;
 }
+.navbar-toggler-icon {
+  background: url(../images/icons8-menu-64.png);
 }
-@media screen and (max-width:640px){
-  .nav{
-      position:absolute;
-      top:45px;
-      width:100%;
-      left:0px;
-      text-align:center;
-      height:6px;
-  }
-  @media screen and (max-width:640px){
-    .nav>ul>li{
-      padding-right:8px;
-      border-right: solid 1px lightgray;
-      font-size:85%;
-    }
-  }
-
-}@media screen and (max-width:640px){
-  #mainscreen{
-    width:66%;
-    font-size:66%;
-    margin-top:95px;
-    margin-left:auto;
-    margin-right:auto;
-    max-height:85%;
-  }
+.fixedNav #sticky-nav-bar {
+  position: fixed;
+  top: 0;
 }
-@media screen and (max-width:640px){
-  #footer{
-    width:100%;
-    margin-top:20px;
-  }
-}
-@media screen and (max-width: 640px){
-  #pic1{
-    width:45%;
-  }
-}
-@media screen and (max-width: 640px){
-  #pic2{
-    width:45%;
-  }
-}
-@media screen and (max-width:640px){
-  #pic3{
-    width:45%;
-    float:left;
-    margin-left:4px;
-  }
-}
-@media screen and (max-width:640px){
-  #pic4{width:45%;
-  margin-left:25px;
-float:left;}}
-
-  @media screen and (max-width:640px){
-  #pic5{
-    width:45%;
-    float:left;
-    margin-left:4px;
-  }}
-  @media screen and (max-width:640px){
-    #pic6{
-      width:45%;
-      float:left;
-      
-    }
-  }
-  @media screen and (max-width:768px){
-    #mainscreen{
-      max-width:80%;
-      font-size:80%;
-      margin-left:auto;
-      margin-right:auto
-
-    }
-
-  }
-  @media screen and (max-width:768px){
-    #footer{width:100%;}
-  }
-  @media screen and (max-width:768px){
-    .name{font-size:78.68%;}
-  }
-  @media screen and (max-width:768px){
-    .nav{width:100%;}
-  }
-
-  @media screen and (max-width: 980px){
-    .nav{width:100%;
-      margin-right:0px;
-  
-    }
-  }
-  @media screen and (max-width:980px){
-    .name{font-size:25px;}
-  }
-  @media screen and (max-width:980px){
-    #mainscreen{
-      width:87%;
-      
-    }
-  }
