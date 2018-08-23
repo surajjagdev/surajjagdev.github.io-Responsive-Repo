@@ -4,10 +4,18 @@ ProjectTitle: My Awesome Responsive Repo
 
 Description: A developer must always showcase his/or learning through projects. However, a portfolio is just as essential as doing projects to show the world what kind of person they are. I have learned a lot since I first began learning, so I have made a new portfolio site that is more polished, dynamic and appealing.
 
-TableofContents: Assets-->style.css, images
-index.html
-portfolio.html
-contact.html
+TableofContents
+
+|─── Assets
+| |───css──reset.css
+| | |──style.css
+| | |──superslides.css
+| |───images
+| |──javascript──index.js
+| |──superslides.js
+| |──typed.js
+└── Index.html
+└──ReadMe.md
 
 Credits: Suraj Jagdev. Portfolio photos:
 
