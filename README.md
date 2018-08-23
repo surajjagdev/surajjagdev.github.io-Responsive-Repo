@@ -2,7 +2,7 @@
 
 ProjectTitle: My Awesome Responsive Repo
 
-Description: A developer must always showcase his/or learning through projects. However, a portfolio is just as essential as doing projects to show the world what kind of person they are. I have learned a lot since I first began learning, so I have made a new portfolio site that is more polished, dynamic and appealing.
+Description: A simple, yet visually appealing portfolio responsive portfolio that showcases my awesome projects.
 
 TableofContents
 
@@ -17,27 +17,33 @@ TableofContents
 └── Index.html
 └──ReadMe.md
 
-Credits: Suraj Jagdev. Portfolio photos:
+Motivation
+->A developer must always showcase his/or learning through projects. However, a portfolio is just as essential as doing projects to show the world what kind of person they are. I have learned a lot since I first began learning, so I have made a new portfolio site that is more polished, dynamic and appealing.
 
-1.  Royale-free stock photo Id: 786991732, The photo or videocamera lens on dark background with lense reflections.
-    From https://www.shutterstock.com/image-photo/photo-videocamera-lens-on-dark-background-786991732?src=tdOtzA-e_zb8x97OsElReA-1-33.
+Build Status
+->This application as of now is built, but is being continously intergrated.
 
-2.  Royalty-free stock photo ID: 548390842, Green plants and scientific equipment in biology laborotary.
-    From https://www.shutterstock.com/image-photo/green-plants-scientific-equipment-biology-laborotary-548390842?src=tdOtzA-e_zb8x97OsElReA-1-34.
+Code style
+->HTML5, CSS3, Javascript, Jquery
 
-3.  Royalty-free stock photo ID: 445183306, Web Design and Development Chart with keywords and icons on blackboard.
-    From https://www.shutterstock.com/image-photo/web-design-development-chart-keywords-icons-445183306?src=MaHdinrxz7lTPPgwnUBpAw-1-6
+Tech/Framework used
+->Superslides.js, typed.js, font-awesome, isotope
 
-4.  Royalty-free stock photo ID: 444047245, Code Html.
-    From https://www.shutterstock.com/image-photo/code-html-444047245?src=MaHdinrxz7lTPPgwnUBpAw-1-26
+Features
+->Changing slides via superslides.js, typed messages via typed.js, icons via font-awesome, filtering items via isotope
 
-5.  Royalty-free stock photo ID: 173967290, Designer drawing website development wireframe.
-    From https://www.shutterstock.com/image-photo/designer-drawing-website-development-wireframe-173967290?src=MaHdinrxz7lTPPgwnUBpAw-1-36
+Installation
+->Simply click the link on the top of this readme, which will take you to my portfolio site
 
-6.  Royalty-free stock photo ID: 350999174, Web development concept. Java icon on virtual screen.
-    From https://www.shutterstock.com/image-photo/web-development-concept-java-icon-on-350999174?src=MaHdinrxz7lTPPgwnUBpAw-2-19
+How to use
+->The navigation bar, when clicked, will go to the particular section clicked. The filtering section has filters on it. "All" will show all the applications. The contact section has three options to click on. "Get in Touch" will open up your mail box, if connected, and enter my email. The github icon will open my github page and the linkedin icon will open my linkedin page.The "application" filter will show bigger applications. "Personal" filter showcases my personal applications. "Websites", though all the applications are websites just defines applications thats are bigger than the personal applications. Each application will have two icons, a search icon and link icon. The search icon will increase the size of the image and show a short description. The link icon will go on the website of the application, unless it is a node application. The latter will go on the github page.
 
-Included:
-![alt]("assets/images/indexpage.PNG")
-![PortfolioPage]("assets/images/portfoliopage.PNG")
-![ContactPage]("assets/images/contactpage.PNG")
+Contributions
+->superslides.js
+->typed.js
+-> font-awesome
+->Isotope filtering
+->Suraj Jagdev (myself)
+
+License
+MIT © surajjagdev
