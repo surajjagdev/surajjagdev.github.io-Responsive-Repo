@@ -1,8 +1,8 @@
 # Basic-Portfolio
 
-ProjectTitle: Responsive-Repo
+ProjectTitle: My Awesome Responsive Repo
 
-Description: Using Basic portfolio repo as the template, a few HTML elements were added in and styled with CSS. Also, 3 break points were created using media queries at 640px, 768px and 980px, to make the static web pages more responsive.  
+Description: A developer must always showcase his/or learning through projects. However, a portfolio is just as essential as doing projects to show the world what kind of person they are. I have learned a lot since I first began learning, so I have made a new portfolio site that is more polished, dynamic and appealing.
 
 TableofContents: Assets-->style.css, images
 index.html
