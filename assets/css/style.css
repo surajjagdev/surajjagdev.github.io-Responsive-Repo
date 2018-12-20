@@ -276,11 +276,7 @@ body {
   .push-down {
     margin-top: -150px;
   }
-  .PortfolioPic {
-    width: 400px;
-    height: 370px;
-    border: 1px solid rgb(4, 189, 127);
-  }
+
   .about-me-paragraph {
     margin-top: 10px;
   }
