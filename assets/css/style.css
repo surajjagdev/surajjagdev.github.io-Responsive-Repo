@@ -98,7 +98,7 @@ body {
   border-top: none;
 }
 .squareInnerContainer {
-  content: "";
+  content: '';
   position: absolute;
   top: 0px;
   width: 90;
@@ -258,4 +258,30 @@ body {
 .fixedNav #sticky-nav-bar {
   position: fixed;
   top: 0;
+}
+@media (max-width: 640px) {
+  .the-first,
+  .the-second,
+  .the-third {
+    padding: 0px;
+  }
+  .the-second {
+    margin-top: 120px;
+    padding: 0px 125px 10px;
+  }
+  .the-third {
+    margin-top: 138px;
+    padding: 0px 0px 10px;
+  }
+  .push-down {
+    margin-top: -150px;
+  }
+  .PortfolioPic {
+    width: 400px;
+    height: 340px;
+    border: 1px solid rgb(4, 189, 127);
+  }
+  .about-me-paragraph {
+    margin-top: 10px;
+  }
 }
