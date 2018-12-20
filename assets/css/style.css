@@ -287,9 +287,3 @@ body {
     font-weight: 1000px;
   }
 }
-
-@media (max-width: 440px) {
-  .PortfolioPic {
-    margin-left: 10%;
-  }
-}
