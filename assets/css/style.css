@@ -276,7 +276,9 @@ body {
   .push-down {
     margin-top: -150px;
   }
-
+  .PortfolioPic {
+    transform: rotate(-90deg);
+  }
   .about-me-paragraph {
     margin-top: 10px;
   }
