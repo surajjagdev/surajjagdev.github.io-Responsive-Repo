@@ -284,4 +284,7 @@ body {
   .about-me-paragraph {
     margin-top: 10px;
   }
+  .name {
+    font-weight: 1000px;
+  }
 }
