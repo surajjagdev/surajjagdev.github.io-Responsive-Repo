@@ -29,6 +29,7 @@ body {
   position: absolute;
   z-index: 3;
   background-color: rgba(0, 0, 0, 0.4);
+  filter: brightness(40%);
 }
 .title-messages {
   position: absolute;
@@ -222,8 +223,10 @@ body {
   left: 25px;
   position: absolute;
   top: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
+  filter: brightness(40%);
+  background-color: rgba(0, 0, 0, 0.9);
   opacity: 0;
+
   z-index: 2;
 
   -webkit-transition: all 0.2s linear, 1s;
@@ -266,19 +269,17 @@ body {
     padding: 0px;
   }
   .the-second {
-    margin-top: 120px;
-    padding: 0px 125px 10px;
+    margin-top: 129px;
+    padding: 0px 50px 10px;
   }
   .the-third {
-    margin-top: 138px;
+    margin-top: 146px;
     padding: 0px 0px 10px;
   }
   .push-down {
     margin-top: -150px;
   }
-  .PortfolioPic {
-    transform: rotate(-90deg);
-  }
+
   .about-me-paragraph {
     margin-top: 10px;
   }
